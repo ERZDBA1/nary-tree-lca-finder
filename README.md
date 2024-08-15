@@ -2,6 +2,11 @@
 
 This repository contains code for finding the Lowest Common Ancestor (LCA) and Lowest Dominating Common Ancestors (LDCAs) in an n-ary tree.
 
+## Definitions
+
+- **LCA (Lowest Common Ancestor):** The single, deepest shared parent for any set of nodes in a tree.
+- **LDCA (Lowest Dominating Common Ancestors):** Multiple nodes forming a set that dominates the paths to shared descendants for a group of nodes, ensuring all routes to these descendants pass through this node set.
+
 ## Usage
 
 - **LCA:** Use `NaryTreeLCAFinder.findLCA(TreeNode root, Set<TreeNode> nodes)` to find the lowest common ancestor of the given nodes.
