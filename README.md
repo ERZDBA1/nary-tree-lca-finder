@@ -5,7 +5,7 @@ This repository contains code for finding the Lowest Common Ancestor (LCA) and L
 ## Definitions
 
 - **LCA (Lowest Common Ancestor):** The single, deepest shared parent for any set of nodes in a tree.
-- **LDCAs (Lowest Dominating Common Ancestors):** Multiple nodes forming a set that dominates the paths to shared descendants for a group of nodes, ensuring all routes to these descendants pass through this node set.
+- **LDCA (Lowest Dominating Common Ancestors):** Multiple nodes forming the deepest set that dominates the paths to shared descendants for a group of nodes, ensuring all routes to these descendants pass through this node set.
 
 ## Usage
 
